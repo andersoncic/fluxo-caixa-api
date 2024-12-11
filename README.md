@@ -44,7 +44,6 @@ Testes: Pytest para testes unitários.
 <li>- models.py          # Modelos de banco de dados
 <li>- schemas.py         # Validações e esquemas de entrada/saída
 <li>- database.py        # Configuração do banco de dados
-<li>- routers/
 <li>- transactions.py  # Rotas relacionadas a lançamentos
 <li>- summary.py       # Rotas relacionadas ao saldo consolidado
 </ul>
