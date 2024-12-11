@@ -83,6 +83,44 @@ uvicorn app.main:app --reload
 POST /transactions/: Criar lançamentos.
 GET /summary/: Obter saldo consolidado.
 
+#############################################
+
+<h3><b>Infraestrutura</b></h3>
+Hospedagem
+AWS
+EC2 Instance (t2.micro): R$ 45/mês (se fora do Free Tier).
+RDS (PostgreSQL): R$ 75/mês.
+Storage: R$ 25/mês.
+Total AWS: R$ 145/mês.
+
+<b>Ferramentas Gratuitas:</b>
+
+Prometheus + Grafana: Gratuito (self-hosted).
+AWS CloudWatch Free Tier: Gratuito.
+
+<b>Ferramentas Pagas:</b>
+Datadog: R$ 75/mês por host.
+New Relic: Gratuito para até 100 GB/mês.
+Total Monitoramento: R$ 0 - R$ 75/mês.
+
+<h5><b>Critérios de Segurança</h5></b>
+Infraestrutura
+Certificado SSL/TLS:
+Gratuito com Let's Encrypt.
+R$ 50/ano (~R$ 4/mês) para opções comerciais.
+Web Application Firewall (WAF):
+
+AWS WAF: R$ 25/mês.
+Cloudflare: Plano gratuito disponível.
+Total Segurança: R$ 4 - R$ 25/mês.
+
+<h5><b>Custo Total Estimado (Médio)</h5></b>
+Infraestrutura: R$ 35 - R$ 145/mês.
+Monitoramento: R$ 0 - R$ 75/mês.
+Segurança: R$ 4 - R$ 25/mês.
+Custo Geral
+Total Geral em Reais: R$ 39 - R$ 245/mês.
+
 
 
 
