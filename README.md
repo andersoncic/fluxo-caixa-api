@@ -58,3 +58,11 @@ Testes: Pytest para testes unitários.
 </code>
 
 
+
+<h5><b>Justificativa de escolhas</b></h5>
+ <ul><b>FastAPI:</b> Um dos frameworks mais eficientes e amigáveis para desenvolvimento de APIs REST. Possui validação automática com Pydantic.
+<b>SQLite:</b> Banco de dados leve, ideal para ambientes de desenvolvimento e testes.
+ 
+<b>Pytest:</b> Ferramenta robusta para automação de testes.
+<b>Docker:</b> Opcional para execução em ambientes controlados.
+ </ul>
