@@ -1,0 +1,23 @@
+<title>Arquitetura de Transição</title>
+<h4>Camadas Principais:</h4>
+Camada de Apresentação (Presentation Layer)
+
+<h4>API Gateway (FastAPI)</h4>
+Exposição de endpoints REST:
+<ul>/transactions: Para gerenciar lançamentos (créditos/débitos).
+<li>/summary: Para retornar o saldo diário consolidado.
+<li>Camada de Aplicação (Application Layer)
+</ul>
+<h4>Serviço de Gerenciamento de Lançamentos</h4>
+<li>Valida e processa requisições de crédito/débito.
+<li>Insere dados na base de dados.
+<li>Serviço de Consolidação Diária
+<li>Calcula o saldo diário com base nos lançamentos armazenados.
+<li>Camada de Dados (Data Layer)
+
+<h4>Banco de Dados SQLite</h4>
+<li>Tabela transactions:
+<li>id: Identificador único.
+<li>date: Data do lançamento.
+<li>type: Tipo do lançamento (crédito ou débito).
+<li>amount: Valor da transação.
