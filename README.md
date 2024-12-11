@@ -66,3 +66,15 @@ Testes: Pytest para testes unitários.
 <b>Pytest:</b> Ferramenta robusta para automação de testes.
 <b>Docker:</b> Opcional para execução em ambientes controlados.
  </ul>
+
+
+<h5><b># Fluxo de Caixa API</b></h5>
+## Requisitos
+- Python 3.9+
+- FastAPI
+- SQLite
+
+## Instalação
+```bash
+pip install -r requirements.txt
+uvicorn app.main:app --reload
