@@ -74,7 +74,15 @@ Testes: Pytest para testes unitários.
 - FastAPI
 - SQLite
 
-## Instalação
+<h5><b>## Instalação</b></h5>
 ```bash
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+
+<h5><b>Endpoints</b></h5>
+POST /transactions/: Criar lançamentos.
+GET /summary/: Obter saldo consolidado.
+
+
+
+
